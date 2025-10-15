@@ -5,5 +5,4 @@ export const users = p.pgTable("users", {
   name: p.text(),
   email: p.text().unique(),
   fav_animal: p.text(),
-  fav_food: p.text(),
 });

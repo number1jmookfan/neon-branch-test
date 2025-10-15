@@ -6,5 +6,4 @@ export const users = p.pgTable("users", {
   email: p.text().unique(),
   fav_animal: p.text(),
   fav_food: p.text(),
-  schema_with_vercel_sh: p.text(),
 });

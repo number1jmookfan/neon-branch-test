@@ -1,5 +1,5 @@
 if [[ $VERCEL_ENV == "preview"  ]] ; then
   npm run build:preview
 else
-  npm run build:production
+  npm run build
 fi

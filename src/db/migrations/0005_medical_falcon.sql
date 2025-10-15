@@ -1,0 +1,1 @@
+ALTER TABLE "users" DROP COLUMN "schema_with_vercel_sh";

@@ -8,6 +8,69 @@
       "when": 1760466292150,
       "tag": "0000_zippy_hercules",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1760468289574,
+      "tag": "0001_massive_forge",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1760468409136,
+      "tag": "0002_shallow_the_watchers",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1760468490635,
+      "tag": "0003_furry_silk_fever",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1760551407342,
+      "tag": "0004_bored_lorna_dane",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1760551441334,
+      "tag": "0005_medical_falcon",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1760551904651,
+      "tag": "0006_nasty_roulette",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1760551999829,
+      "tag": "0007_glamorous_gorilla_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1760552238425,
+      "tag": "0008_unusual_weapon_omega",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1760552683580,
+      "tag": "0009_fuzzy_lilandra",
+      "breakpoints": true
     }
   ]
 }

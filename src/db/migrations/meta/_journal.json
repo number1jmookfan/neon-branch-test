@@ -8,6 +8,27 @@
       "when": 1760466292150,
       "tag": "0000_zippy_hercules",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1760468289574,
+      "tag": "0001_massive_forge",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1760468409136,
+      "tag": "0002_shallow_the_watchers",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1760468490635,
+      "tag": "0003_furry_silk_fever",
+      "breakpoints": true
     }
   ]
 }

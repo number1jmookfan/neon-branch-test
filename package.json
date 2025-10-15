@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "build:preview": "db:generate && db:migrate && build",
+    "build:preview": "npm run db:generate && npm run db:migrate && npm run build",
     "start": "next start",
     "lint": "eslint",
     "db:generate": "npx drizzle-kit generate",

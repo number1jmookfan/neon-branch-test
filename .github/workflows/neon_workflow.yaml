@@ -1,0 +1,16 @@
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+
+jobs:
+  migrate_db:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Migrations
+        run: npm install && npm run db:generate && npm run db:migrate
+        env:
+          POSTGRES_REAL_REAL_DATABASE_URL_UNPOOLED: ${{ secrets.DATABASE_URL_MAIN }}

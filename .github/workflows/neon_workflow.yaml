@@ -10,6 +10,9 @@ jobs:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
       - name: Run Migrations
         run: npm install && npm run db:generate && npm run db:migrate
         env:
